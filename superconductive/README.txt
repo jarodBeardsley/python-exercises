@@ -1,4 +1,4 @@
-Basic program to calculate solar longitude given a UTC time from an API endpoint.
+Basic program to print the solar longitude at given a UTC time, retrieved from an API endpoint.
 
 Built to run in an IDE like PyCharm. You will need to have the relevant libraries installed: Flask and astropy
 
