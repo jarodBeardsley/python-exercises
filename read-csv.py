@@ -21,6 +21,6 @@ if __name__ == '__main__':
         for bline in bandwidth:
           if bline[0] == nline[1] and bline[1] == nline[2] and i>0:
             utilization = float(nline[3])/int(bline[2])
-            print(nline[0] + " ' + bline[0] + " " + bline[1] + " " + str(utilization)
+            print(nline[0] + " " + bline[0] + " " + bline[1] + " " + str(utilization)
       i += 1
       
