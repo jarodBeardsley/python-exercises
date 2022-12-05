@@ -1,13 +1,12 @@
 ################
 # Main Program #
 ################
-#Enter Python code here and hit the Run button.
 def fibonacci(n):
   """Implements Fibonacci calculation using dynamic programming for O(n) runtime"""
   a = 0
   b = 1
   if n < 0:
-    print("Invalid input")
+    print("Invalid input:" + n)
   elif n <= 1:
     return n
   else:
