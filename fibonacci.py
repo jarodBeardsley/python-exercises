@@ -6,7 +6,7 @@ def fibonacci(n):
   a = 0
   b = 1
   if n < 0:
-    print("Invalid input:" + n)
+    print("Invalid input:" + n + ", input must be greater than -1")
   elif n <= 1:
     return n
   else:
